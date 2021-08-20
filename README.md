@@ -13,7 +13,6 @@ KeyReady : Control Signal of the FSM for the KPU in order to produce keys
 DesReady : Control Signal of the FSM for the Basicdes component
 
 Inserted plaintext
-P = 64’h0123456789ABCDEF
 ![image](https://user-images.githubusercontent.com/89205152/130221203-2705b2f7-6538-4817-adb0-47f218e2ffe6.png)
 
 Inserted key:

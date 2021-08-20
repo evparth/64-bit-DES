@@ -4,7 +4,7 @@ The structure of the Data Encryption Standard algorithm is a modified form of th
 
 The system consists of clock, asynchronous reset, 64-bit plaintext, key and ciphertext as output.
 
-Signals:
+# Signals:
 
 key_mem : Register space where the internal keys are stored after their production.
 des_meml,des_memr : Registers used for controlling the products after every DES round.

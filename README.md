@@ -6,11 +6,11 @@ The system consists of clock, asynchronous reset, 64-bit plaintext, key and ciph
 
 **Signals:**
 
--key_mem : Register space where the internal keys are stored after their production.
--des_meml,des_memr : Registers used for controlling the products after every DES round.
--DataEnable : Control Signal of the FSM that enables the processing of plaintext.
--KeyReady : Control Signal of the FSM for the KPU in order to produce keys
--DesReady : Control Signal of the FSM for the Basicdes component
+- key_mem : Register space where the internal keys are stored after their production.
+- des_meml,des_memr : Registers used for controlling the products after every DES round.
+- DataEnable : Control Signal of the FSM that enables the processing of plaintext.
+- KeyReady : Control Signal of the FSM for the KPU in order to produce keys
+- DesReady : Control Signal of the FSM for the Basicdes component
 
 **Example of correct function tested in Modelsim**
 

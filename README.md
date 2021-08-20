@@ -2,7 +2,7 @@
 
 The structure of the Data Encryption Standard algorithm is a modified form of the Feistel Network.
 
-The system consists of clock, asynchronous reset, 64-bit plaintext, key and ciphertext as output.
+The system consists of clock, asynchronous reset, 64-bit plaintext and key as the main inputs and ciphertext as output.
 
 **Signals:**
 

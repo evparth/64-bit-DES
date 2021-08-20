@@ -4,15 +4,19 @@ The structure of the Data Encryption Standard algorithm is a modified form of th
 
 The system consists of clock, asynchronous reset, 64-bit plaintext, key and ciphertext as output.
 
-Signals:
+**Signals:**
 
 key_mem : Register space where the internal keys are stored after their production.
+
 des_meml,des_memr : Registers used for controlling the products after every DES round.
+
 DataEnable : Control Signal of the FSM that enables the processing of plaintext.
+
 KeyReady : Control Signal of the FSM for the KPU in order to produce keys
+
 DesReady : Control Signal of the FSM for the Basicdes component
 
-# Example of correct function tested in Modelsim
+**Example of correct function tested in Modelsim**
 Inserted plaintext:
 
 ![image](https://user-images.githubusercontent.com/89205152/130221203-2705b2f7-6538-4817-adb0-47f218e2ffe6.png)

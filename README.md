@@ -13,15 +13,16 @@ The system consists of clock, asynchronous reset, 64-bit plaintext, key and ciph
 -DesReady : Control Signal of the FSM for the Basicdes component
 
 **Example of correct function tested in Modelsim**
-Inserted plaintext:
+
+_Inserted plaintext:_
 
 ![image](https://user-images.githubusercontent.com/89205152/130221203-2705b2f7-6538-4817-adb0-47f218e2ffe6.png)
 
-Inserted key:
+_Inserted key:_
 
 ![image](https://user-images.githubusercontent.com/89205152/130221193-88b16e26-bcd8-4ca8-8356-a5ad86188684.png)
 
-Expected output:
+_Expected output:_
 
 ![image](https://user-images.githubusercontent.com/89205152/130221081-b3911ea5-e069-4872-a101-faffb1b3cd20.png)
 

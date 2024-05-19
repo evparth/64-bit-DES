@@ -6,8 +6,8 @@ The system consists of clock, asynchronous reset, 64-bit plaintext and key as th
 
 **Signals:**
 
-- key_mem : Register space where the internal keys are stored after their production.
-- des_meml,des_memr : Registers used for controlling the products after every DES round.
+- key_mem : Register space, where the internal keys are stored after their production.
+- des_meml,des_memr : Registers used for controlling the products after every successful DES round.
 - DataEnable : Control Signal of the FSM that enables the processing of plaintext.
 - KeyReady : Control Signal of the FSM for the KPU in order to produce keys
 - DesReady : Control Signal of the FSM for the Basicdes component
@@ -28,6 +28,6 @@ _Expected output:_
 
 
 
-For more information check the readme.png where you can find block diagrams of the project.
+For more information check the readme.png, where you can find block diagrams of the project.
 
-This implementation was made by me for the course VLSI 3 at Electrical and Computer Engineer of the University of Patras.
+This implementation was for the course VLSI 3 at Electrical and Computer Engineer department of the University of Patras.
